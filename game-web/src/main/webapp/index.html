@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="lib/crafty.js"></script>
+    <script type="text/javascript" src="js/launch.js"></script>
+    <script type="text/javascript" src="js/msgcom.js"></script>
+    <script type="text/javascript" src="js/components/edges.js"></script>
+    <script type="text/javascript" src="js/components/center.js"></script>
+    <script type="text/javascript" src="js/components/ball.js"></script>
+    <script type="text/javascript" src="js/components/brick.js"></script>
+    <script type="text/javascript" src="js/components/paddle.js"></script>
+    <script type="text/javascript" src="js/components/countdown.js"></script>
+    <script type="text/javascript" src="js/components/powerup.js"></script>
+    <script type="text/javascript" src="js/components/powerdown.js"></script>
+    <script type="text/javascript" src="js/scenes/common.js"></script>
+    <script type="text/javascript" src="js/scenes/loading.js"></script>
+    <script type="text/javascript" src="js/scenes/levelsetups.js"></script>
+    <script type="text/javascript" src="js/scenes/menu.js"></script>
+    <script type="text/javascript" src="js/scenes/play.js"></script>
+    <script type="text/javascript" src="js/scenes/gameover.js"></script>
+    <script type="text/javascript" src="js/scenes/win.js"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>BreakOpenTheCode</title>
+    <style>
+    	body, html { 
+				margin: 0; 
+				padding: 0;
+				overflow: hidden; 
+				font-family: Arial; 
+				font-size: 20px;
+				background-color: black;
+			}
+    	#cr-stage { 
+				margin: 0 auto;
+				color: white;
+				cursor: none;
+			}
+			@media (min-width: 641px) {
+				#cr-stage {
+					position: absolute !important;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+				}
+			}
+
+    </style>
+
+</head>
+<body>
+	<div id="cr-stage"></div>
+</body>
+</html>
