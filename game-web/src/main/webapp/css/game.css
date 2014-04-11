@@ -1,0 +1,26 @@
+
+.modal {
+	position:absolute;
+	top:10%;
+}
+
+.modal {
+	overflow-y: auto;
+}
+.modal-open {
+	overflow: auto;
+}
+
+@media all and (min-height: 40em){
+	.modal{
+		position: fixed;
+	}
+	.modal-body {
+		max-height: 35em;
+		overflow-y: auto;
+	}
+}
+
+
+
+
